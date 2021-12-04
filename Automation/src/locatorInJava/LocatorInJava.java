@@ -19,6 +19,9 @@ public class LocatorInJava {
 		driver1.manage().window().maximize();
 		driver1.get("https://www.facebook.com/");
 		
+		
+		driver1.findElement(By.xpath(""));
+		
 		//driver1.findElement(By.id("ema"));
 	
 		List<WebElement> n1=driver1.findElements(By.id("ema"));
