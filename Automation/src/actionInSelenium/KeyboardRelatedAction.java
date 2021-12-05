@@ -35,6 +35,7 @@ public class KeyboardRelatedAction {
 		ac.moveToElement(user).click().keyDown(Keys.SHIFT).sendKeys("india").keyUp(Keys.SHIFT).build().perform();
 		ac.moveToElement(pass).click().sendKeys("abc@123").build().perform();
 		ac.moveToElement(btnSubmit).sendKeys(Keys.ENTER).build().perform();
+		driver.close();
 	}
 
 }
