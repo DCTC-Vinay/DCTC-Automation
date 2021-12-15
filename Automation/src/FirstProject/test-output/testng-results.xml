@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="23" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-15T08:09:48 IST" name="Suite" finished-at="2021-12-15T08:10:17 IST" duration-ms="29019">
+    <groups>
+    </groups>
+    <test started-at="2021-12-15T08:09:48 IST" name="Test" finished-at="2021-12-15T08:10:17 IST" duration-ms="29019">
+      <class name="Selenium_Project.FirstProject.TestAssert.ScreenshotInSelenium">
+        <test-method signature="takeScreenshot()[pri:0, instance:Selenium_Project.FirstProject.TestAssert.ScreenshotInSelenium@4fb3ee4e]" started-at="2021-12-15T08:09:48 IST" name="takeScreenshot" finished-at="2021-12-15T08:09:52 IST" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="takeScreenshot()[pri:0, instance:Selenium_Project.FirstProject.TestAssert.ScreenshotInSelenium@4fb3ee4e]" started-at="2021-12-15T08:09:52 IST" name="takeScreenshot" finished-at="2021-12-15T08:09:54 IST" duration-ms="2558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- Selenium_Project.FirstProject.TestAssert.ScreenshotInSelenium -->
+      <class name="Selenium_Project.FirstProject.BaseClassTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:09:48 IST" name="beforeSuite" finished-at="2021-12-15T08:09:48 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:09:48 IST" name="beforeTest" finished-at="2021-12-15T08:09:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:09:48 IST" name="beforeClass" finished-at="2021-12-15T08:09:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:09:48 IST" name="beforeMethod" finished-at="2021-12-15T08:09:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="baseTest()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:09:48 IST" name="baseTest" finished-at="2021-12-15T08:09:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:09:48 IST" name="afterMethod" finished-at="2021-12-15T08:09:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:10:17 IST" name="afterTest" finished-at="2021-12-15T08:10:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Selenium_Project.FirstProject.BaseClassTest@4738a206]" started-at="2021-12-15T08:10:17 IST" name="afterSuite" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Selenium_Project.FirstProject.BaseClassTest -->
+      <class name="Selenium_Project.FirstProject.ATest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="beforeClass" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="method1()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="method1" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="beforeMethod" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="afterMethod" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="beforeMethod" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="method2()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="method2" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="baseTest()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="baseTest" finished-at="2021-12-15T08:10:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="beforeMethod" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="afterMethod" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.ATest@25fb8912]" started-at="2021-12-15T08:10:09 IST" name="afterMethod" finished-at="2021-12-15T08:10:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Selenium_Project.FirstProject.ATest -->
+      <class name="test.TestPages">
+        <test-method signature="initial()[pri:0, instance:test.TestPages@5d7148e2]" started-at="2021-12-15T08:09:54 IST" name="initial" finished-at="2021-12-15T08:10:02 IST" duration-ms="8201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method signature="testLogin()[pri:0, instance:test.TestPages@5d7148e2]" started-at="2021-12-15T08:10:02 IST" name="testLogin" finished-at="2021-12-15T08:10:09 IST" duration-ms="6660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TestPages@5d7148e2]" started-at="2021-12-15T08:10:17 IST" name="closeBrowser" finished-at="2021-12-15T08:10:17 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestPages -->
+      <class name="Selenium_Project.FirstProject.TestAssert.AssertsInSelenium">
+        <test-method signature="checkingTitleofWebPage()[pri:0, instance:Selenium_Project.FirstProject.TestAssert.AssertsInSelenium@7bd4937b]" started-at="2021-12-15T08:10:09 IST" name="checkingTitleofWebPage" finished-at="2021-12-15T08:10:17 IST" duration-ms="7934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTitleofWebPage -->
+        <test-method signature="verifyUserCansendMail()[pri:0, instance:Selenium_Project.FirstProject.TestAssert.AssertsInSelenium@7bd4937b]" started-at="2021-12-15T08:10:17 IST" name="verifyUserCansendMail" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCansendMail -->
+        <test-method signature="verifyUserCansendMail()[pri:0, instance:Selenium_Project.FirstProject.TestAssert.AssertsInSelenium@7bd4937b]" started-at="2021-12-15T08:10:17 IST" name="verifyUserCansendMail" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCansendMail -->
+      </class> <!-- Selenium_Project.FirstProject.TestAssert.AssertsInSelenium -->
+      <class name="Selenium_Project.FirstProject.BTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="beforeClass" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="beforeMethod" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="method1()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="method1" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="afterMethod" finished-at="2021-12-15T08:10:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="beforeMethod" finished-at="2021-12-15T08:10:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="method2()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="method2" finished-at="2021-12-15T08:10:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="afterMethod" finished-at="2021-12-15T08:10:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="beforeMethod" finished-at="2021-12-15T08:10:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="baseTest()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="baseTest" finished-at="2021-12-15T08:10:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Project.FirstProject.BTest@21e360a]" started-at="2021-12-15T08:10:17 IST" name="afterMethod" finished-at="2021-12-15T08:10:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Selenium_Project.FirstProject.BTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
