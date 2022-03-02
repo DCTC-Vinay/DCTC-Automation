@@ -10,10 +10,6 @@ public class Demo extends FinalKeywordInJava {
 	
 	}
 	
-	public void test()
-	{
-		
-	}
 	
 	
 

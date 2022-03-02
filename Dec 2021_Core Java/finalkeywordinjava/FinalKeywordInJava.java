@@ -1,6 +1,6 @@
 package finalkeywordinjava;
 
-public final class FinalKeywordInJava {
+public class FinalKeywordInJava {
 
 	//need to assign value to final variable
 	//we cant change the value of final variable
