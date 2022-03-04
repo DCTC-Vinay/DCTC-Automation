@@ -1,7 +1,8 @@
 package exceptioninjava;
 
-//multiple catch
-public class ExceptionInJava2 {
+
+//finally block
+public class ExceptionInJava4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,21 +10,29 @@ public class ExceptionInJava2 {
 		float c=0;
 		int a[]= {2,3,0};
 		
-		try
+		try					//outer try block
 		{
-			c=(float)a[0]/a[3];
+			
+			try				//inner try block
+			{
+				c=a[0]/a[1];
+			}
+			catch(ArrayIndexOutOfBoundsException e)
+			{
+				System.out.println(e);
+			}
+			finally
+			{
+				System.out.println("I am here inside inner try block");
+			}
 		}
 		catch(ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println(e);
 		}
-		catch(ArithmeticException e)
+		finally
 		{
-			System.out.println(e);
-		}
-		catch(Exception e)
-		{
-			System.out.println(e);
+			System.out.println("I am here");
 		}
 		
 		System.out.println("Value of C :"+c);
