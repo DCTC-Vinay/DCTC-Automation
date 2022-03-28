@@ -10,8 +10,8 @@ public class B {
 		B b1=new B();
 		B b2=new B(123,"Vinay");
 		
-		b1.display();
-		b2.display();
+		//b1.display();
+		//b2.display();
 		
 	}
 	
@@ -19,14 +19,14 @@ public class B {
 	{
 		empName="Test";
 		id=12122;
-		//this.display();
+		this.display();
 	}
 	
 	public B(int id, String empName)
 	{
 		this.id=id;
 		this.empName=empName;
-		//this.display();
+		this.display();
 	}
 
 	public void display()

@@ -9,6 +9,8 @@ public class C {
 		// TODO Auto-generated method stub
 		C c1=new C(123,"Ruturaj");		
 		c1.display();
+		
+		
 	}
 	
 	public C()
