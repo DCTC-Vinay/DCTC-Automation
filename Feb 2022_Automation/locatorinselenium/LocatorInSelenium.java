@@ -39,6 +39,12 @@ public class LocatorInSelenium {
 		
 		Thread.sleep(3000);
 		
+		WebElement tag = driver.findElement(By.tagName("img"));
+		System.out.println(tag.getAttribute("alt"));
+		System.out.println(tag.getAttribute("src"));
+		
+		Thread.sleep(3000);
+		
 		WebElement link = driver.findElement(By.linkText("Facebook Lite"));
 		System.out.println(link.getText());
 		link.click();
