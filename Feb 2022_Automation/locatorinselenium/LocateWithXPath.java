@@ -30,5 +30,13 @@ public class LocateWithXPath {
 		
 		WebElement pass=driver.findElement(By.xpath("//input[@name='pass']"));
 		pass.sendKeys("Test1234");
+		
+		WebElement fb = driver.findElement(By.xpath("//h2[starts-with(text(),'Facebook helps you')]"));
+		System.out.println(fb.getText());
+		
+		WebElement con = driver.findElement(By.xpath("//a[contains(text(),'uploading')]"));
+		System.out.println(con.getText());
+		System.out.println(con.getAttribute("title"));
+		con.click();
 	}
 }
