@@ -37,17 +37,17 @@ public class DatePickerInSelenium {
 		driver.findElement(By.id("datePickerMonthYearInput")).click();
 		
 		Thread.sleep(3000);
-		WebElement sel_tag_month=driver.findElement(By.xpath("//select[@class='react-datepicker__month-select']"));
-		Select month=new Select(sel_tag_month);
-		month.selectByVisibleText("June");
-		
-		Thread.sleep(3000);
 		WebElement sel_tag_year=driver.findElement(By.xpath("//select[@class='react-datepicker__year-select']"));
 		Select year=new Select(sel_tag_year);
 		year.selectByValue("2024");
 		
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//div[@class='react-datepicker__day react-datepicker__day--018']")).click();
+		WebElement sel_tag_month=driver.findElement(By.xpath("//select[@class='react-datepicker__month-select']"));
+		Select month=new Select(sel_tag_month);
+		month.selectByVisibleText("July");
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//div[@class='react-datepicker__day react-datepicker__day--008']")).click();
 	}
 	
 	public void close_browser()

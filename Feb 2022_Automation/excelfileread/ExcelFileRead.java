@@ -37,6 +37,16 @@ public class ExcelFileRead {
 		int emp_id_value = (int)sheet.getRow(3).getCell(1).getNumericCellValue();
 		
 		System.out.println(emp_id+" : "+emp_id_value);
+		
+		
+		int n=sheet.getPhysicalNumberOfRows();
+		System.out.println("Physical no of rows:"+n);
+		
+		int m=sheet.getLastRowNum();
+		System.out.println("Last Row:"+m);
+		
+		int o=sheet.getRow(3).getLastCellNum();
+		System.out.println("Last Column No :"+o);
 	}
 	
 }

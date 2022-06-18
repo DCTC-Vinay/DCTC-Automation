@@ -12,7 +12,7 @@ import windowinselenium.TabsInSelenium;
 
 public class FileUploadInSelenium {
 	
-WebDriver driver;
+	WebDriver driver;
 	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
