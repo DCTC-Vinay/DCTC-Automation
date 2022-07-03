@@ -1,0 +1,12 @@
+1. Download Maven from Eclipse Market Place under Help
+2. Download TestNG from Eclipse Market Place under Help
+3. Create new Maven Project ---> artifact ID --> maven-archetype-quickstart
+4. Add dependency under POM.XML
+5. Add dependency for Selenium (Search in Google for Maven dependency)
+6. Change JRE System Library version to 1.8
+7. Save the POM.xml file
+8. Let the files to download
+9. Refresh the Maven project ---> Right Click on Maven Project
+10. All dependencies will be stored in Maven Dependency
+11. add Library of TestNG by right clicking on maven project
+12. for Screenshot add dependency of File Utils under POM.xml
