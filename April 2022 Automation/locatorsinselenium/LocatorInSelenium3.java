@@ -30,5 +30,10 @@ public class LocatorInSelenium3 {
 		
 		//relative Xpath
 		driver.findElement(By.xpath("//button[@name='login']")).click();
+		
+		
 	}
 }
+
+
+
