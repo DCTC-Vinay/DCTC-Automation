@@ -32,8 +32,8 @@ public class FramesInJava {
 		//driver.switchTo().frame("frame1");
 		
 		
-		  driver.switchTo().frame(3); WebElement
-		  s=driver.findElement(By.xpath("//h1[@id='sampleHeading']"));
+		  driver.switchTo().frame(3); 
+		  WebElement s=driver.findElement(By.xpath("//h1[@id='sampleHeading']"));
 		  System.out.println(s.getText());
 		  
 		  driver.switchTo().defaultContent();
