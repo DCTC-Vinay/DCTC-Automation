@@ -12,6 +12,13 @@ public class EnumDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
+		month m[]=month.values();
+		
+		for(month x:m)
+		{
+			System.out.println(x);
+		}
+		
 		switch(month.April)
 		{
 			case January:
