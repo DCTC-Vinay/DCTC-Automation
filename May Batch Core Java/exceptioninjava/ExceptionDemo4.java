@@ -17,6 +17,10 @@ public class ExceptionDemo4 {
 			{
 				e.printStackTrace();
 			}
+			finally
+			{
+				
+			}
 		}
 		else
 		{

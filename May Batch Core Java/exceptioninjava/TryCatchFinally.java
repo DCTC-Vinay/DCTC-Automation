@@ -1,6 +1,6 @@
 package exceptioninjava;
 
-public class ExceptionDemo3 {
+public class TryCatchFinally {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,13 +14,17 @@ public class ExceptionDemo3 {
 		
 		try
 		{
-			x=no[3]/no[1];
+			x=no[0]/no[1];
 		}
 		catch(Exception e)
 		{
+			System.out.println("Hello");
 			e.printStackTrace();
 		}
-		
+		finally
+		{
+			System.out.println("Hello I am in Finally");
+		}
 		
 		System.out.println("Division :"+x);
 		
