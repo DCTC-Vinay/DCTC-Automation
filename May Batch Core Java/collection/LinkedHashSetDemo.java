@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 public class LinkedHashSetDemo {
@@ -20,6 +21,17 @@ public class LinkedHashSetDemo {
 		h1.remove(null);
 		System.out.println(h1);
 		
+		Iterator i=h1.iterator();
+		
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+				
+		for(String h3:h1)
+		{
+			System.out.println(h3);
+		}
 		
 		LinkedHashSet<Object> h2=new LinkedHashSet<Object>();
 		h2.add(56);
