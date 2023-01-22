@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-06T18:22:52 IST" name="Default suite" finished-at="2022-11-06T18:23:16 IST" duration-ms="24486">
+    <groups>
+    </groups>
+    <test started-at="2022-11-06T18:22:52 IST" name="Default test" finished-at="2022-11-06T18:23:16 IST" duration-ms="24486">
+      <class name="guru99roject.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:guru99roject.Login@47faa49c]" started-at="2022-11-06T18:22:52 IST" name="setUp" finished-at="2022-11-06T18:22:58 IST" duration-ms="6392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_login()[pri:0, instance:guru99roject.Login@47faa49c]" started-at="2022-11-06T18:22:58 IST" name="test_login" finished-at="2022-11-06T18:23:00 IST" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:guru99roject.Login@47faa49c]" started-at="2022-11-06T18:23:00 IST" name="close_browser" finished-at="2022-11-06T18:23:16 IST" duration-ms="16268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- guru99roject.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
